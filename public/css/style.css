@@ -1,0 +1,407 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.greeting {
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #eef0f2;
+    width: 700px;
+}
+
+.session-success {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 20px;
+    background-color: #a7ebd1;
+    padding: 6px 20px;
+    font-weight: bold;
+}
+
+.btn-outline-primary, .submit-button {
+    color: white;
+    background-color: #8caddd;
+    border-color: #75859c;
+}
+
+.btn-outline-primary:hover, .submit-button:hover {
+    background-color: #426e8c;
+    border-color: #ecedf1;
+}
+
+.form {
+    width: 400px;
+    margin: 0 auto;
+}
+main{
+    width: 100%;
+}
+.submit-button {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-danger {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.setting-wrap {
+    background-color: #f1f1f1;
+    border: 1px solid #bebebe;
+    border-radius: 20px;
+    margin: 10px auto 0 auto;
+    width: 90%;
+    padding: 20px 0;
+}
+
+.setting-wrap .list-group-item {
+    background-color: #e5e5e5;
+    padding: 0;
+}
+
+.setting-wrap .list-group-item a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+aside {
+    padding: 15px;
+    width: 200px;
+    border-right: 1px solid #515f78;
+}
+.download{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+}
+/*main {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+}*/
+
+main .big_btn {
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #515f78;
+    color: white;
+    text-decoration: none;
+    padding: 12px 31px;
+    transition: background-color 0.2s;
+    width: 148px;
+}
+
+main .big_btn:hover {
+    background-color: #adb9da;
+    color: black;
+}
+
+.home_dash {
+    color: #515f78;
+    text-decoration: none;
+}
+
+.table {
+    max-width: 95%;
+}
+.sm_td{
+    width: 80px;
+}
+/*
+................................... Resume part .................................................
+*/
+
+
+.left {
+    background-color: #5c7569;
+    width: 300px;
+    color: white;
+}
+
+.right {
+    padding: 20px;
+}
+
+.general, .contacts {
+    padding: 20px 20px 0 20px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 120px;
+    max-width: 120px;
+}
+
+#resume {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sect_left {
+    padding: 2px 20px;
+    background-color: #34423c;
+}
+
+.sect_right {
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #5c7569;
+    border-top: 1px solid #5c7569;
+    width: 390px;
+}
+
+.big_text {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.sm_img {
+    width: 40px;
+    position: absolute;
+    right: 4px;
+    bottom: 2px
+}
+
+.resume_table {
+    overflow: hidden;
+    width: 500px;
+    padding: 5px;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+.resume_table td {
+    position: relative;
+    overflow: hidden;
+}
+
+.resume_table a {
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: underline;
+    color: #4a5568;
+}
+
+
+/*
+....................................................................................
+*/
+@media screen and (max-width: 1220px) {
+
+    #resume {
+        width: 520px;
+    }
+    .left {
+        width: 220px;
+    }
+    .left h4{
+        font-size: 16px;
+    }
+    .left h5{
+        font-size: 14px;
+    }
+    .right {
+        padding: 6px;
+    }
+    .avatar {
+        width: 80px;
+        height: 80px;
+    }
+    .contacts p{
+        font-size: 11px;
+    }
+    .sect_right{
+        width: 250px;
+    }
+    .big_text {
+        width: 210px;
+    }
+    .setting-wrap {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .btn-link {
+        padding: 0;
+    }
+
+    .greeting {
+        max-width: 470px;
+    }
+
+    .greeting h2 {
+        font-size: 18px;
+    }
+
+    main .big_btn {
+        font-size: 16px;
+        padding: 6px 15px;
+    }
+
+    aside {
+        width: 110px;
+        padding: 3px;
+    }
+
+    aside .list-group-item {
+        padding: 5px;
+    }
+
+    aside a {
+        font-size: 12px;
+    }
+    .setting-wrap .list-group-item a {
+        padding: 3px 1px;
+    }
+    main h2 {
+        font-size: 16px;
+    }
+
+    .setting-wrap {
+        border-radius: 10px;
+    }
+
+    .form {
+        width: 260px;
+    }
+    .resume_table{
+        width: 300px;
+
+    }
+    .sm_img {
+        width: 20px;
+    }
+    .resume_table td,  .resume_table a{
+        font-size: 13px;
+    }
+    .resume_table a {
+        max-width: 100px;
+    }
+    .left {
+        width: 120px;
+    }
+    .left h4 {
+        font-size: 13px;
+        margin-bottom: 2px;
+    }
+    .left h5{
+        font-size: 11px;
+    }
+    .avatar {
+        width: 40px;
+        height: 40px;
+    }
+    .general, .contacts{
+        padding: 10px;
+    }
+    .sect_left {
+        padding: 0 10px
+    }
+    .big_text {
+        width: 126px;
+        margin: 4px;
+        font-size: 12px;
+    }
+    .sect_right {
+        width: 112px;
+        font-size: 12px;
+        padding: 0;
+    }
+    main .big_btn{
+        width: 80px;
+    }
+    #resume {
+        width: 320px;
+    }
+    .sm_td {
+        width: 60px;
+    }
+    .sm_img {
+        bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .greeting {
+        max-width: 300px;
+    }
+
+
+    main {
+        padding: 3px;
+    }
+    .resume_table {
+        width: 250px;
+    }
+
+
+    .sect_left {
+        font-size: 12px;
+    }
+    .contacts p {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+    .left {
+        width: 90px;
+    }
+    #resume {
+        width: 263px;
+    }
+    .sm_td {
+        width: 40px;
+    }
+    .sm_td a, .sm_td button{
+        font-size: 11px;
+    }
+    .general, .contacts {
+        padding: 3px;
+    }
+    .download{
+        width: 96px;
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .resume_table {
+        width: 200px;
+    }
+    .resume_table td {
+        padding: 2px;
+        font-size: 12px;
+    }
+    .resume_table a {
+        max-width: 70px;
+    }
+    #resume {
+        padding:10px 0;
+        width: 230px;
+    }
+    .sm_img {
+        bottom: 1px;
+    }
+}
